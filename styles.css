@@ -1,0 +1,116 @@
+#main {
+    background-color: #f9f9f9; /* Light background to make the section stand out */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    margin: 20px 0; /* Adds space around the section */
+}
+
+#main h1 {
+    color: #333; /* Darker color for contrast */
+    font-family: 'Arial', sans-serif; /* Consider importing a Google Font for more uniqueness */
+    font-size: 24px; /* Larger font size */
+    margin-bottom: 15px; /* Space below the header */
+}
+
+#main p {
+    font-size: 16px; /* Slightly larger font size for body text */
+    line-height: 1.6; /* Improved readability */
+    color: #555; /* Softer color for the text */
+    margin-bottom: 10px; /* Space below each paragraph */
+}
+
+/* Example of an icon style */
+.icon {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* For illustrative purposes, you would need to add actual icons */
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+  }
+  header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  header ul {
+    padding: 0;
+    list-style: none;
+  }
+  header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+  header #branding {
+    float: left;
+  }
+  header #branding h1 {
+    margin: 0;
+  }
+  header nav {
+    float: right;
+    margin-top: 10px;
+  }
+  header .highlight, header .current a {
+    color: #e8491d;
+    font-weight: bold;
+  }
+  header a:hover {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .team-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.team-member {
+    flex-basis: 20%; /* Adjust this to control card size */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+.team-member img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.team-member p {
+    margin-top: 10px;
+    font-weight: bold;
+}
