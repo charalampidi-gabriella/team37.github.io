@@ -112,3 +112,10 @@ body {
     margin-top: 10px;
     font-weight: bold;
 }
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
